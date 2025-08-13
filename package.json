@@ -1,0 +1,21 @@
+{
+  "name": "remix-cloudflare-d1-auth",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remix dev",
+    "build": "remix build",
+    "start": "node ./build/index.js"
+  },
+  "dependencies": {
+    "@remix-run/cloudflare": "^2.0.0",
+    "@remix-run/react": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "cross-fetch": "^3.1.5"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.0.0",
+    "wrangler": "^2.11.0"
+  }
+}
